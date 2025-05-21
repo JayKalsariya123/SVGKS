@@ -2,6 +2,7 @@ export const DIVISIONS = {
   PRESCHOOL: 'Pre-School',
   PRIMARY: 'Primary (1-5)',
   MIDDLE: 'Middle (6-10)',
+  MIDDLE_GENERAL: 'Middle (6-10 General)',
   SECONDARY: 'Secondary (11-12)'
 };
 
@@ -36,6 +37,12 @@ export const CLASSES = [
   { id: '8-a', name: '8/A', division: DIVISIONS.MIDDLE, department: DEPARTMENTS.GENERAL },
   { id: '9-a', name: '9/A', division: DIVISIONS.MIDDLE, department: DEPARTMENTS.GENERAL },
   { id: '10-a', name: '10/A', division: DIVISIONS.MIDDLE, department: DEPARTMENTS.GENERAL },
+  
+  { id: '6-b', name: '6/B', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
+  { id: '7-b', name: '7/B', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
+  { id: '8-b', name: '8/B', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
+  { id: '9-b', name: '9/B', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
+  { id: '10-b', name: '10/B', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
   
   { id: '11-sci', name: '11/Sci.', division: DIVISIONS.SECONDARY, department: DEPARTMENTS.SCIENCE },
   { id: '12-sci', name: '12/Sci.', division: DIVISIONS.SECONDARY, department: DEPARTMENTS.SCIENCE },
