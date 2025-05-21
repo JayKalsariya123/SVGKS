@@ -13,8 +13,8 @@ const Login = () => {
     e.preventDefault();
     
     // Hardcoded credentials
-    const validEmail = 'admin@school.com';
-    const validPassword = 'admin123';
+    const validEmail = 'Vidhyamanjarignanpith@gmail.com';
+    const validPassword = 'VIDYA7071';
 
     if (email === validEmail && password === validPassword) {
       // In a real app, this would come from the backend
