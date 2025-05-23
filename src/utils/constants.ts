@@ -1,8 +1,8 @@
 export const DIVISIONS = {
   PRESCHOOL: 'Pre-School',
   PRIMARY: 'Primary (1-5)',
-  MIDDLE: 'general (6-10)',
-  MIDDLE_GENERAL: 'star (6-10 General)',
+  MIDDLE: '(6-10 star)',
+  MIDDLE_GENERAL: '(6-10 General)',
   SECONDARY: 'Higher Secondary (11-12)'
 };
 
