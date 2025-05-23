@@ -26,7 +26,7 @@ const Navbar = ({ children }: NavbarProps) => {
               <div className="flex items-center ml-2 lg:ml-0">
                 <GraduationCap className="h-8 w-8 text-blue-800 flex-shrink-0" />
                 <h1 className="ml-2 text-sm sm:text-base lg:text-lg font-semibold text-blue-800 truncate max-w-[150px] sm:max-w-[300px] lg:max-w-none">
-                  Sanskriti School
+                  Sanskruti School
                 </h1>
               </div>
             </div>
