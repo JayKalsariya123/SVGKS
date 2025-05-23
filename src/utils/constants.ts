@@ -1,9 +1,9 @@
 export const DIVISIONS = {
   PRESCHOOL: 'Pre-School',
   PRIMARY: 'Primary (1-5)',
-  MIDDLE: 'Middle (6-10)',
-  MIDDLE_GENERAL: 'Middle (6-10 General)',
-  SECONDARY: 'Secondary (11-12)'
+  MIDDLE: 'general (6-10)',
+  MIDDLE_GENERAL: 'star (6-10 General)',
+  SECONDARY: 'Higher Secondary (11-12)'
 };
 
 export const DEPARTMENTS = {
