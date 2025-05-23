@@ -68,12 +68,12 @@ const DownloadReports = () => {
       doc.setProperties({
         title: 'Attendance Report',
         subject: 'School Attendance Report',
-        author: 'Sanskriti School, Vidyamanjari Gyanpeeth Campus, Sihor',
+        author: 'sanskruti School, Vidyamanjari Gyanpeeth Campus, Sihor',
         creator: 'Attendance System'
       });
       
       doc.setFontSize(20);
-      doc.text('Sanskriti School, Vidyamanjari Gyanpeeth Campus, Sihor', 105, 15, { align: 'center' });
+      doc.text('sanskruti School, Vidyamanjari Gyanpeeth Campus, Sihor', 105, 15, { align: 'center' });
       doc.setFontSize(14);
       doc.text('Attendance Report', 105, 25, { align: 'center' });
       
@@ -121,7 +121,7 @@ const DownloadReports = () => {
       } else {
         // Template format
         doc.setFontSize(16);
-        doc.text('Sanskriti School, Vidyamanjari Gyanpeeth Campus, Sihor, Vidyanagari Gnanbhid Campus-Siddhar', 105, 70, { align: 'center' });
+        doc.text('sanskruti School, Vidyamanjari Gyanpeeth Campus, Sihor, Vidyanagari Gnanbhid Campus-Siddhar', 105, 70, { align: 'center' });
         
         doc.setFontSize(14);
         doc.text('Daily Attendance Report', 105, 80, { align: 'center' });
@@ -219,7 +219,7 @@ const DownloadReports = () => {
             </style>
           </head>
           <body>
-            <h1>Sanskriti School, Vidyamanjari Gyanpeeth Campus, Sihor</h1>
+            <h1>sanskruti School, Vidyamanjari Gyanpeeth Campus, Sihor</h1>
             <h2>Attendance Report</h2>
             <div class="metadata">
               <p>Period: ${startDate?.toLocaleDateString()} to ${endDate?.toLocaleDateString()}</p>
