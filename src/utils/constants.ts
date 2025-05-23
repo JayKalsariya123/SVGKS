@@ -15,12 +15,12 @@ export const DEPARTMENTS = {
 };
 
 export const CLASSES = [
-  { id: 'play-group', name: 'Play Group', division: DIVISIONS.PRESCHOOL },
-  { id: 'nursery', name: 'Nursery', division: DIVISIONS.PRESCHOOL },
-  { id: 'jkg-a', name: 'JKG-A', division: DIVISIONS.PRESCHOOL },
-  { id: 'jkg-b', name: 'JKG-B', division: DIVISIONS.PRESCHOOL },
-  { id: 'skg-a', name: 'SKG-A', division: DIVISIONS.PRESCHOOL },
-  { id: 'skg-b', name: 'SKG-B', division: DIVISIONS.PRESCHOOL },
+  { id: 'PLAY-GROUP', name: 'Play Group', division: DIVISIONS.PRESCHOOL },
+  { id: 'NURSERY', name: 'Nursery', division: DIVISIONS.PRESCHOOL },
+  { id: 'JKG-A', name: 'JKG-A', division: DIVISIONS.PRESCHOOL },
+  { id: 'JKG-B', name: 'JKG-B', division: DIVISIONS.PRESCHOOL },
+  { id: 'SKG-A', name: 'SKG-A', division: DIVISIONS.PRESCHOOL },
+  { id: 'SKG-B', name: 'SKG-B', division: DIVISIONS.PRESCHOOL },
   
   { id: '1-a', name: '1/A', division: DIVISIONS.PRIMARY, department: DEPARTMENTS.GENERAL },
   { id: '1-b', name: '1/B', division: DIVISIONS.PRIMARY, department: DEPARTMENTS.GENERAL },
