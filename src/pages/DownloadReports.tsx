@@ -89,8 +89,8 @@ const DownloadReports = () => {
       
       if (reportFormat === 'summary' || reportFormat === 'detailed') {
         const headers = reportFormat === 'summary' 
-          ? ['Date', 'Class', 'Total', 'Present', 'Absent', '%', 'Teacher']
-          : ['Date', 'Class', 'Total', 'Present', 'Absent', '%', 'Absent Roll Numbers', 'Teacher'];
+          ? ['Date', 'Class', 'Total', 'Present', 'Absent', '%', 'Supervisor']
+          : ['Date', 'Class', 'Total', 'Present', 'Absent', '%', 'Absent Roll Numbers', 'Supervisor'];
 
         const rows = attendanceData.map(item => {
           const baseRow = [
