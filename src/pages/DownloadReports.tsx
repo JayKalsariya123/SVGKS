@@ -397,7 +397,7 @@ const DownloadReports = () => {
                   {reportFormat === 'detailed' && (
                     <th className="px-4 py-2">Absent Roll Numbers</th>
                   )}
-                  <th className="px-4 py-2">Teacher</th>
+                  <th className="px-4 py-2">Supervisor</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
