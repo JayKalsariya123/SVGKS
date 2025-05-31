@@ -240,7 +240,7 @@ const EditAttendance = () => {
               </div>
               
               <div className="form-group">
-                <label htmlFor="teacherName" className="form-label">Teacher Name</label>
+                <label htmlFor="teacherName" className="form-label">Supervisor Name</label>
                 <input
                   type="text"
                   id="teacherName"
