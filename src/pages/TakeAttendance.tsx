@@ -216,7 +216,7 @@ const TakeAttendance = () => {
             </div>
             
             <div className="form-group">
-              <label htmlFor="teacherName" className="form-label">Teacher Name</label>
+              <label htmlFor="teacherName" className="form-label">Supervisor name</label>
               <input
                 type="text"
                 id="teacherName"
