@@ -82,7 +82,7 @@ const ViewAttendance = () => {
                 </dd>
               </div>
               <div>
-                <dt className="text-sm font-medium text-gray-500">Teacher</dt>
+                <dt className="text-sm font-medium text-gray-500">Supervisor</dt>
                 <dd className="mt-1 text-sm text-gray-900">{attendance.teacherName}</dd>
               </div>
             </dl>
