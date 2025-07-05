@@ -39,10 +39,15 @@ export const CLASSES = [
   { id: '10-a', name: '10/A', division: DIVISIONS.MIDDLE, department: DEPARTMENTS.GENERAL },
   
   { id: '6-b', name: '6/B', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
+  { id: '6-c', name: '6/C', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
   { id: '7-b', name: '7/B', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
+  { id: '7-c', name: '7/C', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
   { id: '8-b', name: '8/B', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
+  { id: '8-c', name: '8/C', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
   { id: '9-b', name: '9/B', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
+  { id: '9-c', name: '9/C', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
   { id: '10-b', name: '10/B', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
+  { id: '10-c', name: '10/C', division: DIVISIONS.MIDDLE_GENERAL, department: DEPARTMENTS.GENERAL },
   
   { id: '11-sci', name: '11/Sci.', division: DIVISIONS.SECONDARY, department: DEPARTMENTS.SCIENCE },
   { id: '12-sci', name: '12/Sci.', division: DIVISIONS.SECONDARY, department: DEPARTMENTS.SCIENCE },
